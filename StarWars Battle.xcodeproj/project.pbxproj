@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FC574F61C10ADA000EA36B7 /* RainParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FC574F41C10ADA000EA36B7 /* RainParticle.sks */; };
+		3FD98CAB1C0E93D7004F910F /* EndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD98CAA1C0E93D7004F910F /* EndScene.swift */; };
 		3FE4D0C41C0DD2CF00C845A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE4D0C31C0DD2CF00C845A1 /* AppDelegate.swift */; };
-		3FE4D0C61C0DD2CF00C845A1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3FE4D0C51C0DD2CF00C845A1 /* GameScene.sks */; };
 		3FE4D0C81C0DD2CF00C845A1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE4D0C71C0DD2CF00C845A1 /* GameScene.swift */; };
 		3FE4D0CA1C0DD2CF00C845A1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE4D0C91C0DD2CF00C845A1 /* GameViewController.swift */; };
 		3FE4D0CD1C0DD2CF00C845A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE4D0CB1C0DD2CF00C845A1 /* Main.storyboard */; };
@@ -28,10 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FC574F41C10ADA000EA36B7 /* RainParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = RainParticle.sks; path = ../RainParticle.sks; sourceTree = "<group>"; };
+		3FD98CAA1C0E93D7004F910F /* EndScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndScene.swift; path = ../EndScene.swift; sourceTree = "<group>"; };
 		3FE4D0BE1C0DD2CF00C845A1 /* StarWars Battle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarWars Battle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FE4D0C21C0DD2CF00C845A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FE4D0C31C0DD2CF00C845A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FE4D0C51C0DD2CF00C845A1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		3FE4D0C71C0DD2CF00C845A1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		3FE4D0C91C0DD2CF00C845A1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3FE4D0CC1C0DD2CF00C845A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,9 +83,10 @@
 			isa = PBXGroup;
 			children = (
 				3FE4D0C31C0DD2CF00C845A1 /* AppDelegate.swift */,
-				3FE4D0C51C0DD2CF00C845A1 /* GameScene.sks */,
 				3FE4D0C71C0DD2CF00C845A1 /* GameScene.swift */,
+				3FD98CAA1C0E93D7004F910F /* EndScene.swift */,
 				3FE4D0C91C0DD2CF00C845A1 /* GameViewController.swift */,
+				3FC574F41C10ADA000EA36B7 /* RainParticle.sks */,
 				3FE4D0CB1C0DD2CF00C845A1 /* Main.storyboard */,
 				3FE4D0CE1C0DD2CF00C845A1 /* Images.xcassets */,
 				3FE4D0D01C0DD2CF00C845A1 /* LaunchScreen.xib */,
@@ -96,7 +98,6 @@
 		3FE4D0C11C0DD2CF00C845A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3FE4D0C21C0DD2CF00C845A1 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -199,8 +200,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FE4D0D21C0DD2CF00C845A1 /* LaunchScreen.xib in Resources */,
+				3FC574F61C10ADA000EA36B7 /* RainParticle.sks in Resources */,
 				3FE4D0CF1C0DD2CF00C845A1 /* Images.xcassets in Resources */,
-				3FE4D0C61C0DD2CF00C845A1 /* GameScene.sks in Resources */,
 				3FE4D0CD1C0DD2CF00C845A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +222,7 @@
 			files = (
 				3FE4D0C81C0DD2CF00C845A1 /* GameScene.swift in Sources */,
 				3FE4D0CA1C0DD2CF00C845A1 /* GameViewController.swift in Sources */,
+				3FD98CAB1C0E93D7004F910F /* EndScene.swift in Sources */,
 				3FE4D0C41C0DD2CF00C845A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +419,7 @@
 				3FE4D0E31C0DD2CF00C845A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FE4D0E41C0DD2CF00C845A1 /* Build configuration list for PBXNativeTarget "StarWars BattleTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +428,7 @@
 				3FE4D0E61C0DD2CF00C845A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
